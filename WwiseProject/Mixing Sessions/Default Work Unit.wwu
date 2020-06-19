@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A87B24BD-7B7E-4277-85D8-32F594CB73B6}" SchemaVersion="97">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A87B24BD-7B7E-4277-85D8-32F594CB73B6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A87B24BD-7B7E-4277-85D8-32F594CB73B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Excercice_MixingDesk" ID="{C820CB63-577C-4099-A32D-4A07F17D9E3C}">
+					<ObjectList>
+						<ObjectRef Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+						<ObjectRef Name="ScrollOpen" ID="{2A0CF280-9BF4-4FD1-8F90-6B70D495EB30}" WorkUnitID="{8302DC3C-5FAC-4AA1-A2B9-79FBC0E0BEFE}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
