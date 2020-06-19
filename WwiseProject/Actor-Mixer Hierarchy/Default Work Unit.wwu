@@ -331,17 +331,6 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<SwitchContainer Name="New Switch Container" ID="{BBF1EDA9-B9A7-4A87-A818-282D7586DEB2}" ShortID="991203773">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
-						</Reference>
-					</ReferenceList>
-					<GroupingInfo/>
-				</SwitchContainer>
 				<Sound Name="Waterfall" ID="{BEB5BD0C-0FAF-412B-B4E2-78B71744943D}" ShortID="206397406">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -892,6 +881,39 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="TorchFire" ID="{912BE76E-74F9-4C17-AA15-F02072FD118B}" ShortID="358908333">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambience_Attenuation" ID="{5665C1CD-6C81-4DBF-AC0A-1D0D53C27F6A}" WorkUnitID="{C9C2FE65-7BF3-4D51-A41E-DEB441397083}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TorchFire" ID="{896A248B-AFC2-4FBA-BBB0-2B2B0E113C5C}">
+							<Language>SFX</Language>
+							<AudioFile>TorchFire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="369007954"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TorchFire" ID="{896A248B-AFC2-4FBA-BBB0-2B2B0E113C5C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
