@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Player_Footstep" ID="{779177D4-E24F-490B-81A7-99AEBBE40698}">
+					<ChildrenList>
+						<Action Name="" ID="{E27B22A7-A052-4176-B753-8E2E5A2E6579}" ShortID="774733984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_WeaponSwing" ID="{9BE267FA-1DD9-4102-B8F6-6A0532C37949}">
+					<ChildrenList>
+						<Action Name="" ID="{F7C6B47A-205D-47B5-97E0-AE196061276C}" ShortID="25286318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack_Container" ID="{A9BE56BD-6723-4F05-875D-8E601E48D51E}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Pickup_Type" ID="{8460898B-A7AB-43A7-8E8B-A57CA1F44C5D}">
+					<ChildrenList>
+						<Action Name="" ID="{616DC3EE-DD8C-4C6E-821D-E4B5B1469435}" ShortID="681106974">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Switch" ID="{E0832BD6-65AF-42AA-900E-EDB0667F9703}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

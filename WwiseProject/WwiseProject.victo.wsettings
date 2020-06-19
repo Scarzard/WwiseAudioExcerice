@@ -3,6 +3,11 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{CB76C6D7-0C95-49C3-91AE-DD3617A95DA1}">
 			<PropertyList>
+				<Property Name="Event Action List\{5B922029-21FE-469A-B030-00A9453CD10B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{779177D4-E24F-490B-81A7-99AEBBE40698}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8460898B-A7AB-43A7-8E8B-A57CA1F44C5D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9BE267FA-1DD9-4102-B8F6-6A0532C37949}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AB45CC52-B9C6-4CF8-8AAF-CF8AC91E3A2A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -13,6 +18,12 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

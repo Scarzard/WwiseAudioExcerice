@@ -1,6 +1,347 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" ShortID="251208175">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D0C1BF18-5F03-4964-B661-5249501A3729}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1339"/>
+											<Property Name="Min" Type="Real64" Value="-909"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{59A3D7EC-3DB0-406E-B498-0AB7E300486A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="footsteps" ID="{80A65CA4-8668-47CB-BFD6-AA0076636B98}">
+							<Language>SFX</Language>
+							<AudioFile>footsteps.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="286989751"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="footsteps" ID="{80A65CA4-8668-47CB-BFD6-AA0076636B98}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Attack_Container" ID="{A9BE56BD-6723-4F05-875D-8E601E48D51E}" ShortID="724251019">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 08" ID="{83D94458-C537-408A-8413-105DE83C36D0}" ShortID="252998694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 08" ID="{01A235EA-D579-43B8-82AD-B8001FA2F0E1}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="709740252"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 08" ID="{01A235EA-D579-43B8-82AD-B8001FA2F0E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 09" ID="{E5DA2645-7C51-4D9A-8658-2F59B52F1244}" ShortID="20336324">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 09" ID="{79C26523-F8D8-47AC-BC93-D96E77C46AC6}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="636472195"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 09" ID="{79C26523-F8D8-47AC-BC93-D96E77C46AC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 01" ID="{D61602DD-9FB0-4A13-88AB-135296237642}" ShortID="939175746">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 01" ID="{E3406DDE-14F0-4B8A-BAA5-BEA48229CC03}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="234847052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 01" ID="{E3406DDE-14F0-4B8A-BAA5-BEA48229CC03}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 03" ID="{CD59C3F6-8803-4B8D-BB2F-719AAF5C0AAD}" ShortID="216294709">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 03" ID="{AB8A8241-B378-49B9-9EDA-2D93B27EBFAE}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="259236647"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 03" ID="{AB8A8241-B378-49B9-9EDA-2D93B27EBFAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 04" ID="{0F555619-C595-4612-B2FB-783CE7287C91}" ShortID="1059565129">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 04" ID="{4889B114-A7DA-4CF4-AA0A-49123F9D270A}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="737076248"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 04" ID="{4889B114-A7DA-4CF4-AA0A-49123F9D270A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 07" ID="{0C01E04F-EFC5-4518-9DAC-70255FC3A3F8}" ShortID="162632690">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 07" ID="{024C85CE-EB80-4EA4-AF57-8E1617C5DA02}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300232559"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 07" ID="{024C85CE-EB80-4EA4-AF57-8E1617C5DA02}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 02" ID="{F2FF29E2-5A70-4D19-9E5F-E754DCD673F8}" ShortID="217706580">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 02" ID="{ABD60671-6A43-4833-8110-5E87F9D91447}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849464000"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 02" ID="{ABD60671-6A43-4833-8110-5E87F9D91447}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Anger Fight Grunt 05" ID="{0C301246-641C-410D-9E6F-35F36B2F6763}" ShortID="1051602360">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 05" ID="{B38CCBBC-38A9-4D16-A845-697B7CEFFA04}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Anger Fight Grunt 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="358459756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Anger Fight Grunt 05" ID="{B38CCBBC-38A9-4D16-A845-697B7CEFFA04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="Switch" ID="{E0832BD6-65AF-42AA-900E-EDB0667F9703}" ShortID="303896010">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F0868DD5-1A1B-4141-86DB-42AB08503498}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Item" ID="{E220AA64-42F9-4AA8-A645-6EDE6D924381}" WorkUnitID="{C20E122B-C3BC-4F12-B12C-E56D7BE7D40A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Pickup_Sounds" ID="{3469567D-365A-43FF-80F2-90B408723834}" WorkUnitID="{C20E122B-C3BC-4F12-B12C-E56D7BE7D40A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Item_Pickup" ID="{D0CB3625-115C-4154-9856-1DA036BF249E}" ShortID="201426230">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Item_Pickup" ID="{539C9F93-16EF-4FCB-9116-9E9698FF5F54}">
+									<Language>SFX</Language>
+									<AudioFile>Item_Pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="3919482"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Item_Pickup" ID="{539C9F93-16EF-4FCB-9116-9E9698FF5F54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Weapon_Pickup" ID="{B7C0732B-7491-4150-9F39-00198AE1AE1E}" ShortID="875027960">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weapon_Pickup" ID="{E8769047-D238-4F9D-A11A-41B8A69E39A5}">
+									<Language>SFX</Language>
+									<AudioFile>Weapon_Pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="926526728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weapon_Pickup" ID="{E8769047-D238-4F9D-A11A-41B8A69E39A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Item_Pickup" ID="{D0CB3625-115C-4154-9856-1DA036BF249E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Weapon_Pickup" ID="{B7C0732B-7491-4150-9F39-00198AE1AE1E}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Item" ID="{E220AA64-42F9-4AA8-A645-6EDE6D924381}"/>
+								<ItemList>
+									<ItemRef Name="Item_Pickup" ID="{D0CB3625-115C-4154-9856-1DA036BF249E}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="New Switch Container" ID="{BBF1EDA9-B9A7-4A87-A818-282D7586DEB2}" ShortID="991203773">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<GroupingInfo/>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
