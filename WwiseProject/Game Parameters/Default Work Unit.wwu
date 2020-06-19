@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{23AC141F-7E4C-4B42-9ED5-9FE50C5F12C5}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{23AC141F-7E4C-4B42-9ED5-9FE50C5F12C5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{23AC141F-7E4C-4B42-9ED5-9FE50C5F12C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance_To_Water" ID="{D4A0076E-3BC8-40A9-AF72-5F61AA446A0C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

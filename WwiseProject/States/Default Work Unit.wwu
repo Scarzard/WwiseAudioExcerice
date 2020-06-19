@@ -3,7 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{94398EC3-984B-44DD-829B-280D88E0A22C}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Ambience_Sound" ID="{C0FD2478-8820-40A5-A216-E85E2375B4B1}">
+				<StateGroup Name="Music_Regions" ID="{C0FD2478-8820-40A5-A216-E85E2375B4B1}">
 					<ChildrenList>
 						<State Name="None" ID="{1A0E2509-0365-4A30-8256-B601CBEF1B6B}"/>
 						<State Name="Desert" ID="{310280B0-E286-4931-9C85-D31E90DFE5B5}"/>
