@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8302DC3C-5FAC-4AA1-A2B9-79FBC0E0BEFE}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{8302DC3C-5FAC-4AA1-A2B9-79FBC0E0BEFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Scroll_Close" ID="{6382FCC9-1F91-41E8-8838-1FCF79CFA263}" ShortID="737307483">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Scroll_Close" ID="{7CAFEAAF-2F0A-43D4-92CB-4057E28A2366}">
+							<Language>SFX</Language>
+							<AudioFile>Scroll_Close.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="564436626"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A767FB0D-6DC6-411A-A142-61FA11B6B7DA}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="5.55111512312578E-17"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Scroll_Close" ID="{7CAFEAAF-2F0A-43D4-92CB-4057E28A2366}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ScrollOpen" ID="{2A0CF280-9BF4-4FD1-8F90-6B70D495EB30}" ShortID="496321421">
+					<PropertyList>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ScrollOpen" ID="{D9BA3FE4-A36D-4C06-ABF9-F04D7D9B4D35}">
+							<Language>SFX</Language>
+							<AudioFile>ScrollOpen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="143860821"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{3850D768-9F19-4B98-B925-E91DC0D78B50}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="ScrollOpen" ID="{D9BA3FE4-A36D-4C06-ABF9-F04D7D9B4D35}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

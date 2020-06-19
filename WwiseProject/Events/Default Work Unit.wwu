@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Scroll_Close" ID="{AC407E56-217D-465D-B1BB-1D8D4AB81D19}">
+					<ChildrenList>
+						<Action Name="" ID="{F932561F-F4E5-4569-80B0-34CD779577EC}" ShortID="971500005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scroll_Close" ID="{6382FCC9-1F91-41E8-8838-1FCF79CFA263}" WorkUnitID="{8302DC3C-5FAC-4AA1-A2B9-79FBC0E0BEFE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
