@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Sound Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" ShortID="251208175">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -341,6 +342,222 @@
 					</ReferenceList>
 					<GroupingInfo/>
 				</SwitchContainer>
+				<Sound Name="Cave" ID="{D040F009-9BAF-45DB-8064-DB058FFF6EDB}" ShortID="140740495">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cave" ID="{1DE26B3E-C26C-4667-8AFA-C0B00BAD2B19}">
+							<Language>SFX</Language>
+							<AudioFile>Cave.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="338300710"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Ambience_Sound" ID="{C0FD2478-8820-40A5-A216-E85E2375B4B1}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Cave" ID="{53268C10-82A7-4011-A2AA-AFE3EB66D48C}"/>
+								<CustomState Name="" ID="{F2C51607-C301-4132-9704-ACAD358CEC6E}" ShortID="110854374"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Silent" ID="{51FDF917-6B2A-4277-BDE7-A5B00E33C52D}"/>
+								<CustomState Name="" ID="{5AE1B18E-F8A7-4FEB-B09D-1C0DC4A64260}" ShortID="584320205"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Woodlands" ID="{2E262226-6E3F-46B9-837E-AFF5B9E19C0B}"/>
+								<CustomState Name="" ID="{4296AD99-4EEA-4001-B8A2-51395C67FA55}" ShortID="12691055"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Nowhere" ID="{76FEC9C9-6E7E-47FD-8758-F675BD777872}"/>
+								<CustomState Name="" ID="{FB967094-D933-4263-A242-98C2BF0FA45A}" ShortID="113074666"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Desert" ID="{310280B0-E286-4931-9C85-D31E90DFE5B5}"/>
+								<CustomState Name="" ID="{6160F281-BA87-4B82-B15A-E770C9DB2889}" ShortID="958831121"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="WwizardHouse" ID="{89A386BF-80DA-4CD7-BA3E-D4C505EEA134}"/>
+								<CustomState Name="" ID="{76862BF8-C6C7-4E6A-8A8A-A19CC262F29D}" ShortID="70180061"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Village" ID="{F8862923-A500-4EEB-BF0E-128242FC8B50}"/>
+								<CustomState Name="" ID="{AA2AB55D-F217-4A1B-BD3F-77BED4948DD8}" ShortID="856725200"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dungeon" ID="{9671E362-C781-4F88-BC9A-AACC842A96BD}"/>
+								<CustomState Name="" ID="{B067F066-BFCD-4D00-85C7-7CBED7BDC158}" ShortID="561142220"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Cave" ID="{1DE26B3E-C26C-4667-8AFA-C0B00BAD2B19}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Desert" ID="{6134D816-FB99-4983-B4D0-F3B255C6934F}" ShortID="263297486">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Desert" ID="{5123E6CB-BA24-4AAA-B01F-A2E5E298612D}">
+							<Language>SFX</Language>
+							<AudioFile>Desert.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="136093752"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Desert" ID="{5123E6CB-BA24-4AAA-B01F-A2E5E298612D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dungeon" ID="{CCD43D12-6773-4077-92CF-B2A76E4D9852}" ShortID="645972864">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dungeon" ID="{B22C83E3-7B2B-4931-8C5E-E0129B3B7136}">
+							<Language>SFX</Language>
+							<AudioFile>Dungeon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="910771198"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dungeon" ID="{B22C83E3-7B2B-4931-8C5E-E0129B3B7136}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Nowhere" ID="{638ADD75-E187-4F86-B2DC-E3664E5AC8E6}" ShortID="239512312">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Nowhere" ID="{02AE40DE-DC3F-4F03-BFB1-F3F3D789E85E}">
+							<Language>SFX</Language>
+							<AudioFile>Nowhere.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="162983696"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Nowhere" ID="{02AE40DE-DC3F-4F03-BFB1-F3F3D789E85E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Village" ID="{7152F0EC-E458-4B87-AA43-296F81D4B24D}" ShortID="133001858">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Village" ID="{00CC1049-A196-4BE7-A592-40D5A35FFB55}">
+							<Language>SFX</Language>
+							<AudioFile>Village.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="124162029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Village" ID="{00CC1049-A196-4BE7-A592-40D5A35FFB55}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WizardHouse" ID="{320CB408-95BB-4C3E-9FBF-E2E3191072AD}" ShortID="615061582">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WizardHouse" ID="{9BED78EC-EE33-4E49-BF7D-14051C5CB2EF}">
+							<Language>SFX</Language>
+							<AudioFile>WizardHouse.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="692759619"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WizardHouse" ID="{9BED78EC-EE33-4E49-BF7D-14051C5CB2EF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Woodlands" ID="{AA0509BE-D191-4753-9225-E884065FB49D}" ShortID="724377058">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Woodlands" ID="{5630CD44-1B4D-4D6E-BB81-7115AF1D0C69}">
+							<Language>SFX</Language>
+							<AudioFile>Woodlands.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="831672839"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Woodlands" ID="{5630CD44-1B4D-4D6E-BB81-7115AF1D0C69}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
