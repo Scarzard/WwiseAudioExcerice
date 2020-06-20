@@ -9,6 +9,17 @@
 							<ObjectRef Name="System" ID="{9F07A43B-5EAB-4794-AB08-262D86BADF2C}" WorkUnitID="{D3E470EA-DA71-40F4-90A5-EDE765577FD0}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX Bus" ID="{5442C691-3BDC-4B88-9C9C-E4664171AC2B}"/>
+						<Bus Name="Ambient Bus" ID="{B80B7CED-864F-43BC-9A5C-CFE9F89B6C70}"/>
+						<AuxBus Name="Aux_Bus" ID="{43371629-EA49-4C4F-842A-3AE956298C9A}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Church_Small_Wood" ID="{940CCB47-F031-4C6A-B0E6-726CAC418C02}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>

@@ -4,7 +4,24 @@
 		<WorkUnit Name="Default Work Unit" ID="{EB107278-67CB-4297-AA72-92308E2F3622}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="My_SoundBank" ID="{C6A6AF45-767D-46EC-87F8-5784D377B3FF}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{13D787A2-F59E-4069-9D10-19B9DDAC35CC}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponSwing" ID="{9BE267FA-1DD9-4102-B8F6-6A0532C37949}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{8460898B-A7AB-43A7-8E8B-A57CA1F44C5D}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Hurt_Vox" ID="{0B169633-3CD7-441A-BE86-DB7DBA80D14E}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{0A5140BA-2D3F-4636-BDE6-1F909320E55C}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Open" ID="{AC407E56-217D-465D-B1BB-1D8D4AB81D19}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Nowhere" ID="{E0105C9F-D6EE-4689-A8F3-0505613DEF67}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponImpact" ID="{9F81C129-82E3-4739-AAA1-FE87C3225568}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{A01B7B8C-1148-4744-9BCC-F2BC666E9CEA}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{779177D4-E24F-490B-81A7-99AEBBE40698}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Village" ID="{EDCFF075-8FAD-4A02-932D-9F4EED0496D5}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Close" ID="{8E9958D9-44C7-4A50-81B5-B11008A7B8DA}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_WwizardHouse" ID="{EC89D570-E6F1-4C6E-9EC1-CAAEEE3E86A0}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{5886527E-DC56-4CAF-91A6-30C2BB1A492E}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{550D322B-834C-4ECE-8B17-D00B32E5CD58}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{7CC98EC4-9F56-4F69-B055-894D156A8489}" WorkUnitID="{47C1AE96-08D4-4982-9783-9D7D3311BDD9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

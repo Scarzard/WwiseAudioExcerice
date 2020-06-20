@@ -6,10 +6,6 @@
 				<SoundcasterSession Name="Excercise_SoundCaster" ID="{C5692BFE-4E02-496B-81DC-18DC473F2383}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Cave" ID="{D040F009-9BAF-45DB-8064-DB058FFF6EDB}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="TorchFire" ID="{912BE76E-74F9-4C17-AA15-F02072FD118B}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -25,7 +21,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_To_Water" ID="{D4A0076E-3BC8-40A9-AF72-5F61AA446A0C}"/>
-							<Value>39.3659180977543</Value>
+							<Value>12.4174372523118</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
@@ -73,7 +69,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Cave" ID="{53268C10-82A7-4011-A2AA-AFE3EB66D48C}"/>
+						<CurrentStateRef Name="WwizardHouse" ID="{89A386BF-80DA-4CD7-BA3E-D4C505EEA134}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Item" ID="{E220AA64-42F9-4AA8-A645-6EDE6D924381}"/>
