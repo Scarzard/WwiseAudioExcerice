@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Excercice_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+							<ObjectRef Name="Excercise_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
@@ -41,7 +41,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Excercice_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+							<ObjectRef Name="Excercise_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>

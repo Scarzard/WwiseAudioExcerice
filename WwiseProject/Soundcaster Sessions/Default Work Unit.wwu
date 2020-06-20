@@ -3,7 +3,7 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{4C0D9AD7-2656-423A-A3BA-4200B414DCB9}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="Excercice_SoundCaster" ID="{C5692BFE-4E02-496B-81DC-18DC473F2383}">
+				<SoundcasterSession Name="Excercise_SoundCaster" ID="{C5692BFE-4E02-496B-81DC-18DC473F2383}">
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="Cave" ID="{D040F009-9BAF-45DB-8064-DB058FFF6EDB}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>

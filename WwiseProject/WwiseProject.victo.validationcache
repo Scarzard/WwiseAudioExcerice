@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\WwiseProject.wproj" DateLow="1592586682" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\WwiseProject.victo.wsettings" DateLow="1592598874" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\WwiseProject.victo.wsettings" DateLow="1592611711" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1592586607" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Switches\Default Work Unit.wwu" DateLow="1592593678" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\States\Default Work Unit.wwu" DateLow="1592598061" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592609618" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1592587958" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Queries\Factory Queries.wwu" DateLow="1592586594" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Queries\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
@@ -15,13 +15,13 @@
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Presets\Factory Reflect.wwu" DateLow="1592586607" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Presets\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1592609884" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592592516" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1592586607" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Game Parameters\Factory Motion.wwu" DateLow="1592586608" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1592598061" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Events\Default Work Unit.wwu" DateLow="1592593678" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Events\Default Work Unit.wwu" DateLow="1592611510" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Effects\Factory Reflect.wwu" DateLow="1592586607" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="1592586603" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1592586607" DateHigh="0"/>
@@ -36,12 +36,13 @@
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Effects\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1592586594" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1592610449" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1592592516" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1592586682" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1592609337" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1592610449" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1592586594" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1592587958" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1592592516" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592598061" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\WwiseAudioExcerice\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592611510" DateHigh="0"/>
 </ValidationCache>

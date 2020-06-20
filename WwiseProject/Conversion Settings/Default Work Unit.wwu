@@ -37,7 +37,7 @@
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
-				<Conversion Name="Excercice_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}">
+				<Conversion Name="Excercise_ConversionSettings" ID="{55CFC1BF-2788-402C-911F-0B5E257D99BE}">
 					<PropertyList>
 						<Property Name="Channels" Type="int32">
 							<ValueList>

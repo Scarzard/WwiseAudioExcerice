@@ -41,7 +41,7 @@
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="Mixing Desk\GroupCollapse\x64_{C820CB63-577C-4099-A32D-4A07F17D9E3C}" Type="string" Value=""/>
-				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Mixing Desk\LastSession" Type="string" Value="{C820CB63-577C-4099-A32D-4A07F17D9E3C}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
@@ -55,16 +55,16 @@
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value="Zf7CyfN7UU2kHt60QTlwgw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value="7EEx6nY4REeu5Xu3artdIw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="V5TIAnGxiEK42jtrYbQ0Sl3lTdPUefdKpdbqJwTYUmI="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="V5TIAnGxiEK42jtrYbQ0SjzcAoOsX6FKorl5+8Dgvv5d5U3T1Hn3SqXW6icE2FJi"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="lq7BR9QIgkmXg519MxG92Q=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="fVZpNFo2/0OA8pC0CHI4NCsSDsK8wxJPsSzlbXvn1Ao="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="eCT9wCCIpUCiFuheI3W0scOOOZRLmN1EgpsoDYjgoiw="/>
@@ -111,6 +111,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{C5692BFE-4E02-496B-81DC-18DC473F2383}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
