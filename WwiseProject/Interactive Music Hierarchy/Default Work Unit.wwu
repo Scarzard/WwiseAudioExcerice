@@ -11,6 +11,9 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambient Bus" ID="{B80B7CED-864F-43BC-9A5C-CFE9F89B6C70}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Aux_Bus" ID="{43371629-EA49-4C4F-842A-3AE956298C9A}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="CavePlaylist" ID="{3B4B4AD7-5E22-4B6C-A97B-652206E75FC0}" ShortID="6541761">
