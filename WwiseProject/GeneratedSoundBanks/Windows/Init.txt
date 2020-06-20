@@ -38,7 +38,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2576423226	Aux_Bus			\Default Work Unit\Master Audio Bus\Aux_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	484890516	Church_Small_Wood	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
