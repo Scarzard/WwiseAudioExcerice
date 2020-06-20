@@ -27,7 +27,8 @@
 					<PositioningInfo>
 						<Panner Name="" ID="{A767FB0D-6DC6-411A-A142-61FA11B6B7DA}">
 							<PropertyList>
-								<Property Name="PanY" Type="Real64" Value="5.55111512312578E-17"/>
+								<Property Name="PanX" Type="Real64" Value="-67.4698795180723"/>
+								<Property Name="PanY" Type="Real64" Value="43.8297872340425"/>
 							</PropertyList>
 						</Panner>
 					</PositioningInfo>
@@ -57,7 +58,12 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
-						<Panner Name="" ID="{3850D768-9F19-4B98-B925-E91DC0D78B50}"/>
+						<Panner Name="" ID="{3850D768-9F19-4B98-B925-E91DC0D78B50}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-65.0602409638554"/>
+								<Property Name="PanY" Type="Real64" Value="46.8085106382979"/>
+							</PropertyList>
+						</Panner>
 					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="ScrollOpen" ID="{D9BA3FE4-A36D-4C06-ABF9-F04D7D9B4D35}" Platform="Linked"/>

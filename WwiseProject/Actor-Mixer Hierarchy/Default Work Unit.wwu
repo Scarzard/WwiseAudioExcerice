@@ -3,57 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" ShortID="251208175">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{D0C1BF18-5F03-4964-B661-5249501A3729}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="1339"/>
-											<Property Name="Min" Type="Real64" Value="-909"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{59A3D7EC-3DB0-406E-B498-0AB7E300486A}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="10"/>
-											<Property Name="Min" Type="Real64" Value="-10"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="footsteps" ID="{80A65CA4-8668-47CB-BFD6-AA0076636B98}">
-							<Language>SFX</Language>
-							<AudioFile>footsteps.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="286989751"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="footsteps" ID="{80A65CA4-8668-47CB-BFD6-AA0076636B98}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="Attack_Container" ID="{A9BE56BD-6723-4F05-875D-8E601E48D51E}" ShortID="724251019">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -439,7 +388,7 @@
 										<StateRef Name="Woodlands" ID="{2E262226-6E3F-46B9-837E-AFF5B9E19C0B}"/>
 										<CustomState Name="" ID="{5B8DD1B1-B48B-4443-A9B2-B96BA580E32E}" ShortID="176384796">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-5"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -539,7 +488,7 @@
 										<StateRef Name="Dungeon" ID="{9671E362-C781-4F88-BC9A-AACC842A96BD}"/>
 										<CustomState Name="" ID="{F24A0E13-8145-4E9C-8940-E4C96BDF45DE}" ShortID="769783556">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-12"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -611,7 +560,7 @@
 										<StateRef Name="WwizardHouse" ID="{89A386BF-80DA-4CD7-BA3E-D4C505EEA134}"/>
 										<CustomState Name="" ID="{26090CFA-B0B8-4C54-A684-AC6A840DF3F3}" ShortID="883108106">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -695,7 +644,7 @@
 										<StateRef Name="Village" ID="{F8862923-A500-4EEB-BF0E-128242FC8B50}"/>
 										<CustomState Name="" ID="{8DBABEE3-08E0-4473-8A67-C41CE9DD44C7}" ShortID="214992982">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-15"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -763,7 +712,7 @@
 										<StateRef Name="Nowhere" ID="{76FEC9C9-6E7E-47FD-8758-F675BD777872}"/>
 										<CustomState Name="" ID="{D7C3E8EE-497F-4086-AEBF-2A3EC76BA0C1}" ShortID="293705947">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-7"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -831,7 +780,7 @@
 										<StateRef Name="Cave" ID="{53268C10-82A7-4011-A2AA-AFE3EB66D48C}"/>
 										<CustomState Name="" ID="{F2C51607-C301-4132-9704-ACAD358CEC6E}" ShortID="110854374">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="3"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -927,7 +876,7 @@
 										<StateRef Name="Desert" ID="{310280B0-E286-4931-9C85-D31E90DFE5B5}"/>
 										<CustomState Name="" ID="{5BD09A0C-AEF3-4B35-8DEE-86FF96CA719C}" ShortID="744337782">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="108"/>
+												<Property Name="Volume" Type="Real64" Value="-8"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -982,6 +931,219 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="TorchFire" ID="{896A248B-AFC2-4FBA-BBB0-2B2B0E113C5C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WeaponImpact" ID="{F5F48A32-4766-48E1-8663-7D182AFE7546}" ShortID="193021787">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C6A81745-E9D0-4C60-B33D-40DB0C31EE96}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1500"/>
+											<Property Name="Min" Type="Real64" Value="-1500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9A71F039-FDC9-407C-AF68-AFB2EA123883}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WeaponImpact" ID="{395F796C-D8DC-4B8F-8208-87B35FA2BA10}">
+							<Language>SFX</Language>
+							<AudioFile>WeaponImpact.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="55839406"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WeaponImpact" ID="{395F796C-D8DC-4B8F-8208-87B35FA2BA10}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Hurt_Sequence" ID="{EA2C9AAA-3906-4D6A-824D-C12508D25A85}" ShortID="279274127">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D39686BB-0D8B-473B-B5B5-23FE3CFC9CAB}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02" ID="{BFEB71B7-6E92-46B0-8688-CEB8064651F3}" ShortID="867434401">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9C75CE3E-24AB-418A-BA75-C3DF7055C29C}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02" ID="{0CADAF26-F210-41E0-AFFA-C4A08A944A29}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="940592561"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02" ID="{0CADAF26-F210-41E0-AFFA-C4A08A944A29}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 01" ID="{F54626AE-D04E-4F9F-B175-B5281830E9E4}" ShortID="490330599">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0A1ABD64-C9B0-4C9D-9647-3C323181D13D}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 01" ID="{CF5289BC-0870-4022-B259-19A287420511}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Pain Hurt Grunt Small 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1062223349"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 01" ID="{CF5289BC-0870-4022-B259-19A287420511}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 02" ID="{EB1A7748-398F-4333-ABF3-FE409BFD2074}" ShortID="242149743">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{20482A1C-4C5D-48BA-8641-E7CB6EBD96CB}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 02" ID="{B231E55B-E18D-4C86-A312-93F9A01084A6}">
+									<Language>SFX</Language>
+									<AudioFile>EMOTE Chloe- Teen- Pain Hurt Grunt Small 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="647125514"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 02" ID="{B231E55B-E18D-4C86-A312-93F9A01084A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 01" ID="{F54626AE-D04E-4F9F-B175-B5281830E9E4}"/>
+						<ItemRef Name="EMOTE Chloe- Teen- Pain Hurt Grunt Small 02" ID="{EB1A7748-398F-4333-ABF3-FE409BFD2074}"/>
+						<ItemRef Name="EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02" ID="{BFEB71B7-6E92-46B0-8688-CEB8064651F3}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="FootStep" ID="{53FB64BE-12AD-4131-819A-B4FE5671CBF0}" ShortID="737227454">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6B71491B-F76B-4CE9-A70A-C2E890D35CBB}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{36449B65-B99D-4C44-8739-9BFE579465FD}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="15"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA3141EC-3876-4744-AEE5-7BB76ABB5D23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B05AF32-EA27-40ED-B809-42C118A7D96A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FootStep" ID="{F5652C4B-B9DA-4FB6-9674-217EC12B7A97}">
+							<Language>SFX</Language>
+							<AudioFile>FootStep.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="17230908"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FootStep" ID="{F5652C4B-B9DA-4FB6-9674-217EC12B7A97}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

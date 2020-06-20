@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Player_Footstep" ID="{779177D4-E24F-490B-81A7-99AEBBE40698}">
 					<ChildrenList>
-						<Action Name="" ID="{E27B22A7-A052-4176-B753-8E2E5A2E6579}" ShortID="774733984">
+						<Action Name="" ID="{15143A3E-CAA7-452C-8DD5-66A2EAE402A1}" ShortID="428050356">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{B4E3314C-01D2-4C59-B803-DF4F975D734C}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="FootStep" ID="{53FB64BE-12AD-4131-819A-B4FE5671CBF0}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -152,6 +152,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WwizardHouse" ID="{320CB408-95BB-4C3E-9FBF-E2E3191072AD}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Hurt_Vox" ID="{0B169633-3CD7-441A-BE86-DB7DBA80D14E}">
+					<ChildrenList>
+						<Action Name="" ID="{F8E3A74B-C895-4142-87EE-E8A2023B1D6C}" ShortID="889055191">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hurt_Sequence" ID="{EA2C9AAA-3906-4D6A-824D-C12508D25A85}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_WeaponImpact" ID="{9F81C129-82E3-4739-AAA1-FE87C3225568}">
+					<ChildrenList>
+						<Action Name="" ID="{44E6885C-4F68-43C0-A4C5-333A511EDB6A}" ShortID="473791786">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WeaponImpact" ID="{F5F48A32-4766-48E1-8663-7D182AFE7546}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

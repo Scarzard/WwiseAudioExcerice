@@ -73,7 +73,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{1A0E2509-0365-4A30-8256-B601CBEF1B6B}"/>
+						<CurrentStateRef Name="Cave" ID="{53268C10-82A7-4011-A2AA-AFE3EB66D48C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Item" ID="{E220AA64-42F9-4AA8-A645-6EDE6D924381}"/>
