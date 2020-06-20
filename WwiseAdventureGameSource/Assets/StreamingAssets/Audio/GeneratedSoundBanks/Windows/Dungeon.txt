@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2453392179	Player_Footstep			\Default Work Unit\Player_Footstep	
+	4077685701	Ambient_Region_Dungeon			\Default Work Unit\Ambient_Region_Dungeon	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17230908	FootStep	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\FootStep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep		82852
+	910771198	Dungeon	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Dungeon_C5444A27.wem		\Interactive Music Hierarchy\Default Work Unit\AmbienceMusicSwitchContainer\DungeonPlaylist\Dungeon\Dungeon		1840564
+

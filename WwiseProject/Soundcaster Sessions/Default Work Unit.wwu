@@ -72,7 +72,7 @@
 						<CurrentStateRef Name="WwizardHouse" ID="{89A386BF-80DA-4CD7-BA3E-D4C505EEA134}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Item" ID="{E220AA64-42F9-4AA8-A645-6EDE6D924381}"/>
+						<CurrentSwitchRef Name="Weapon" ID="{0EC03A7E-EFD5-47C4-9ECE-2CB889808456}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

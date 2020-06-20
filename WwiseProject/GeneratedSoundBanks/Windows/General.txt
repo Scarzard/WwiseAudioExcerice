@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Default Work Unit\Ambient_Torch	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll_Open	
+	1934835592	Ambient_Waterfall			\Default Work Unit\Ambient_Waterfall	
+	3695342915	Player_WeaponImpact			\Default Work Unit\Player_WeaponImpact	
+	3808743129	Player_WeaponSwing			\Default Work Unit\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Default Work Unit\Player_Hurt_Vox	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	514606628	Distance_To_Water			\Default Work Unit\Distance_To_Water	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55839406	WeaponImpact	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\WeaponImpact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WeaponImpact		118252
+	143860821	ScrollOpen	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\ScrollOpen_55197359.wem		\Actor-Mixer Hierarchy\UI\ScrollOpen		9447
+	174370623	Waterfall	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Waterfall		10176144
+	234847052	EMOTE Chloe- Teen- Anger Fight Grunt 01	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 01		24640
+	259236647	EMOTE Chloe- Teen- Anger Fight Grunt 03	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 03		26944
+	300232559	EMOTE Chloe- Teen- Anger Fight Grunt 07	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 07		26176
+	358459756	EMOTE Chloe- Teen- Anger Fight Grunt 05	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 05		19776
+	369007954	TorchFire	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\TorchFire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TorchFire		3586440
+	564436626	Scroll_Close	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Scroll_Close_55197359.wem		\Actor-Mixer Hierarchy\UI\Scroll_Close		17727
+	636472195	EMOTE Chloe- Teen- Anger Fight Grunt 09	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 09		32832
+	647125514	EMOTE Chloe- Teen- Pain Hurt Grunt Small 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Small 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Small 02		76864
+	709740252	EMOTE Chloe- Teen- Anger Fight Grunt 08	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 08		24640
+	737076248	EMOTE Chloe- Teen- Anger Fight Grunt 04	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 04		27456
+	849464000	EMOTE Chloe- Teen- Anger Fight Grunt 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 02		39744
+	940592561	EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02		40256
+	1062223349	EMOTE Chloe- Teen- Pain Hurt Grunt Small 01	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Small 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Small 01		55616
+

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient_Region_Woodlands	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	831672839	Woodlands	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Woodlands_C5444A27.wem		\Interactive Music Hierarchy\Default Work Unit\AmbienceMusicSwitchContainer\WoodlandPlaylist\Woodlands\Woodlands		249749
+

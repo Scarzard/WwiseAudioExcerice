@@ -1,0 +1,80 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Default Work Unit\Ambient_Torch	
+	415717233	Ambient_Region_Nowhere			\Default Work Unit\Ambient_Region_Nowhere	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll_Open	
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient_Region_Woodlands	
+	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient_Region_Cave	
+	1698258367	Ambient_Region_WwizardHouse			\Default Work Unit\Ambient_Region_WwizardHouse	
+	1934835592	Ambient_Waterfall			\Default Work Unit\Ambient_Waterfall	
+	2453392179	Player_Footstep			\Default Work Unit\Player_Footstep	
+	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient_Region_Village	
+	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient_Region_Desert	
+	3616336268	Player_Pickup_Type			\Default Work Unit\Player_Pickup_Type	
+	3695342915	Player_WeaponImpact			\Default Work Unit\Player_WeaponImpact	
+	3808743129	Player_WeaponSwing			\Default Work Unit\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Default Work Unit\Player_Hurt_Vox	
+	4077685701	Ambient_Region_Dungeon			\Default Work Unit\Ambient_Region_Dungeon	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1595075340	Pickup_Sounds			\Default Work Unit\Pickup_Sounds	
+
+Switch	ID	Name	Switch Group			Notes
+	1222624712	Item	Pickup_Sounds			
+	3893417221	Weapon	Pickup_Sounds			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	110854374	Cave	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Cave		
+	176384796	Woodlands	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Woodlands		
+	214992982	Village	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Village		
+	293705947	Nowhere	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Nowhere		
+	744337782	Desert	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Desert		
+	769783556	Dungeon	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Dungeon		
+	883108106	WwizardHouse	Music_Regions	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\WwizardHouse		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	514606628	Distance_To_Water			\Default Work Unit\Distance_To_Water	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3919482	Item_Pickup	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Item_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\Item_Pickup		216108
+	17230908	FootStep	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\FootStep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep		82852
+	55839406	WeaponImpact	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\WeaponImpact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WeaponImpact		118252
+	143860821	ScrollOpen	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\ScrollOpen_A9411D89.wem		\Actor-Mixer Hierarchy\UI\ScrollOpen		9594
+	174370623	Waterfall	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Waterfall		10176144
+	234847052	EMOTE Chloe- Teen- Anger Fight Grunt 01	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 01		24640
+	259236647	EMOTE Chloe- Teen- Anger Fight Grunt 03	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 03		26944
+	300232559	EMOTE Chloe- Teen- Anger Fight Grunt 07	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 07		26176
+	358459756	EMOTE Chloe- Teen- Anger Fight Grunt 05	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 05		19776
+	369007954	TorchFire	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\TorchFire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TorchFire		3586440
+	564436626	Scroll_Close	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Scroll_Close_A9411D89.wem		\Actor-Mixer Hierarchy\UI\Scroll_Close		17264
+	636472195	EMOTE Chloe- Teen- Anger Fight Grunt 09	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 09		32832
+	647125514	EMOTE Chloe- Teen- Pain Hurt Grunt Small 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Small 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Small 02		76864
+	709740252	EMOTE Chloe- Teen- Anger Fight Grunt 08	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 08		24640
+	737076248	EMOTE Chloe- Teen- Anger Fight Grunt 04	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 04		27456
+	849464000	EMOTE Chloe- Teen- Anger Fight Grunt 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Anger Fight Grunt 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attack_Container\EMOTE Chloe- Teen- Anger Fight Grunt 02		39744
+	940592561	EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Medium 02		40256
+	1062223349	EMOTE Chloe- Teen- Pain Hurt Grunt Small 01	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\EMOTE Chloe- Teen- Pain Hurt Grunt Small 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hurt_Sequence\EMOTE Chloe- Teen- Pain Hurt Grunt Small 01		55616
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	124162029	Village	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Village_D79FB2B7.wem	124162029.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Village	
+	136093752	Desert	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Desert_D79FB2B7.wem	136093752.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Desert	
+	162983696	Nowhere	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Nowhere_D79FB2B7.wem	162983696.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Nowhere	
+	338300710	Cave	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Cave_D79FB2B7.wem	338300710.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Cave	
+	692759619	WwizardHouse	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\WizardHouse_D79FB2B7.wem	692759619.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\WwizardHouse	
+	831672839	Woodlands	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Woodlands_D79FB2B7.wem	831672839.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Woodlands	
+	910771198	Dungeon	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Dungeon_D79FB2B7.wem	910771198.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience_Sounds\Dungeon	
+

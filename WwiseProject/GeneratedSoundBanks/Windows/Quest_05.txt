@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	509318909	Pickup_ItemType			\Default Work Unit\Pickup_ItemType	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3616336268	Player_Pickup_Type			\Default Work Unit\Player_Pickup_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3919482	Item_Pickup	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Item_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\Item_Pickup		216108
+	926526728	Weapon_Pickup	E:\GitHub\WwiseAudioExcerice\WwiseProject\.cache\Windows\SFX\Weapon_Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\Weapon_Pickup		335224
+

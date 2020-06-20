@@ -82,10 +82,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Cave" ID="{A01B7B8C-1148-4744-9BCC-F2BC666E9CEA}">
 					<ChildrenList>
-						<Action Name="" ID="{06FF2741-925E-4E1A-AF33-A3F1555585D9}" ShortID="909941252">
+						<Action Name="" ID="{F20AC542-64CC-4566-BD0C-2E9F170C54CE}" ShortID="943281381">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Cave" ID="{D040F009-9BAF-45DB-8064-DB058FFF6EDB}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="CavePlaylist" ID="{3B4B4AD7-5E22-4B6C-A97B-652206E75FC0}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -93,10 +93,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Desert" ID="{5886527E-DC56-4CAF-91A6-30C2BB1A492E}">
 					<ChildrenList>
-						<Action Name="" ID="{3FFC649B-FB12-4CEB-A3AF-AE600B7BB181}" ShortID="222294245">
+						<Action Name="" ID="{A4AD2DFE-2844-4C75-8FE5-0DAE3CD0649C}" ShortID="424929318">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Desert" ID="{6134D816-FB99-4983-B4D0-F3B255C6934F}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="DesertPlaylist" ID="{3B367338-3761-4C1C-BD89-BC4491CE8DA0}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -104,10 +104,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Dungeon" ID="{7CC98EC4-9F56-4F69-B055-894D156A8489}">
 					<ChildrenList>
-						<Action Name="" ID="{F057679E-F81C-4EBC-AECB-186E04777546}" ShortID="771795765">
+						<Action Name="" ID="{44CB9649-54B4-4218-91AD-85F7923AB656}" ShortID="899834009">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dungeon" ID="{CCD43D12-6773-4077-92CF-B2A76E4D9852}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="DungeonPlaylist" ID="{81EDBB9F-778C-4D4E-AC37-A8C168C8D3CE}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -115,10 +115,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Woodlands" ID="{13D787A2-F59E-4069-9D10-19B9DDAC35CC}">
 					<ChildrenList>
-						<Action Name="" ID="{8300F0D4-9CC5-4E09-AA3B-4202D8FB17C2}" ShortID="887651216">
+						<Action Name="" ID="{D1D3CEBE-8B2A-4E8C-A511-80877D7E25DA}" ShortID="201226915">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Woodlands" ID="{AA0509BE-D191-4753-9225-E884065FB49D}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="WoodlandPlaylist" ID="{A4276FB6-0A7F-4A65-A0D2-57C01E147C4E}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -126,10 +126,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Village" ID="{EDCFF075-8FAD-4A02-932D-9F4EED0496D5}">
 					<ChildrenList>
-						<Action Name="" ID="{38CE76B1-753E-4737-A28F-3F89551E7D7A}" ShortID="114867126">
+						<Action Name="" ID="{7CE8700B-678A-4467-B94A-24652056D51C}" ShortID="152039219">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Village" ID="{7152F0EC-E458-4B87-AA43-296F81D4B24D}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="VillagePlaylist" ID="{76AAC8E6-E40E-471B-898C-98DFC8FDFBBE}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -137,10 +137,10 @@
 				</Event>
 				<Event Name="Ambient_Region_Nowhere" ID="{E0105C9F-D6EE-4689-A8F3-0505613DEF67}">
 					<ChildrenList>
-						<Action Name="" ID="{5558BB47-B0D1-49C2-A8F6-24D8AD7BC438}" ShortID="672683616">
+						<Action Name="" ID="{6E5852CA-B526-4CF1-8924-450B4D16C778}" ShortID="397074256">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Nowhere" ID="{638ADD75-E187-4F86-B2DC-E3664E5AC8E6}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="NowherePlaylist" ID="{0554FE7F-3C6E-4D65-84FE-248A62DE6717}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -148,10 +148,10 @@
 				</Event>
 				<Event Name="Ambient_Region_WwizardHouse" ID="{EC89D570-E6F1-4C6E-9EC1-CAAEEE3E86A0}">
 					<ChildrenList>
-						<Action Name="" ID="{06D146E9-2F50-4E0B-A67E-E40CB24C23B0}" ShortID="198363023">
+						<Action Name="" ID="{48E9874F-C56B-4E0C-9B79-274928A72CBC}" ShortID="1051650755">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WwizardHouse" ID="{320CB408-95BB-4C3E-9FBF-E2E3191072AD}" WorkUnitID="{D34DE55D-79D4-4AF7-A5D6-EA2704D85262}"/>
+									<ObjectRef Name="WwizardHouse" ID="{D598842D-789F-40F8-84B6-C20514DA4479}" WorkUnitID="{79E9784B-F4EB-4130-9F63-01EB06D655A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
